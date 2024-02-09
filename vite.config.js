@@ -5,14 +5,17 @@ const path = require('path')
 
 export default defineConfig({
     plugins: [
-        laravel([
-            '~res/scss/app.scss',
-            '~res/js/app.js',
-        ]),
+        laravel({
+            input: [
+                'resources/scss/app.scss',
+                'resources/js/app.js',
+            ],
+            refresh: true,
+        }),
     ],
     resolve: {
         alias: {
-            '~res': '/resources/',
+            '~resources': '/resources/',
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
         },
     },
