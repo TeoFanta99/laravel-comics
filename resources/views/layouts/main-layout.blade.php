@@ -12,6 +12,7 @@
 <body>
     <div class="text-center">
         @include('components.header')
+        @include('components.jumbo')
         @yield('content')
         @include('components.footer')
     </div>
