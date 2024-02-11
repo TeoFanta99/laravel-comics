@@ -7,6 +7,41 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>FOOTER</h1>
+    <footer>
+        <div class="links-container">
+        <div class="col">
+                <span>DC COMICS</span>
+                <ul>
+                    <li>
+                        <a>ciao</a>
+                    </li>
+                </ul> <br>
+                <span>SHOP</span>
+                <ul>
+                    <li>
+                        <a>ciao</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <span>DC</span>
+                <ul>
+                    <li>
+                        <a>ciao</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <span>SITES</span>
+                <ul>
+                    <li>
+                        <a>ciao</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
