@@ -72,13 +72,11 @@ main {
     .container {
         width: 100%;
         min-height: 400px;
-        background-color: green;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .row {
-            background-color: red;
             width: 100%;
             height: 90%;
             display: flex;
@@ -86,8 +84,6 @@ main {
 
         .my_col {
             height: auto;
-            background-color: orange;
-            border: 1px solid black;
             margin-top: 20px;
 
             img {
@@ -96,6 +92,7 @@ main {
 
             span {
                 font-size: 10px;
+                color: white;
             }
         }
 
