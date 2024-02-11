@@ -14,8 +14,9 @@
         @include('components.header')
         @include('components.jumbo')
         @include('components.cards-section')
-        @yield('content')
+        @include('components.icons-section')
         @include('components.footer')
+        @yield('content')
     </div>
 </body>
 </html>
