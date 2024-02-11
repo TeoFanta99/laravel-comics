@@ -13,6 +13,7 @@
     <div class="text-center">
         @include('components.header')
         @include('components.jumbo')
+        @include('components.cards-section')
         @yield('content')
         @include('components.footer')
     </div>
